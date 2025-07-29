@@ -1,0 +1,23 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "main": "dist/js-utils.cjs.js",
+  "module": "dist/js-utils.esm.js",
+  "unpkg": "dist/js-utils.umd.min.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "clean": "rm -rf dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": ["javascript", "utility", "typescript"],
+  "devDependencies": {
+    "typescript": "^5.x",
+    "webpack": "^5.x",
+    "webpack-cli": "^5.x",
+    "ts-loader": "^9.x",
+    "terser-webpack-plugin": "^5.x"
+  }
+}
